@@ -48,6 +48,20 @@
 
 ---
 
+## 资源保护：禁止全项目 build / test
+
+**禁止**对整个项目执行 build 或 test，避免大型项目占用过多 CPU / 内存：
+
+- 只跑**改动涉及模块**的单元测试（如 `pytest path/to/module`、`go test ./pkg/foo/...`、`npm test -- path/to/file`）
+- 只 build **改动涉及的子包 / 单文件**，不跑根级 `build` / `make all` / `npm run build`
+- 类型检查同理：用 `tsc --noEmit path/to/file.ts` 而非全项目 `tsc`
+
+**例外**（需先告知用户再执行）：
+- 用户明确要求"跑全量测试"或"完整 build"
+- 提交前最终验证，且项目本身规模较小（< 50 个源文件）
+
+---
+
 ## 上下文保护红线
 
 | 禁止行为 | 替代方案 |
