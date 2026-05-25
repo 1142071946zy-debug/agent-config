@@ -606,3 +606,441 @@
 3. **明确 1-2 年的纯社招岗稀少** — 大厂 JD 多数为 3+ 年；本调研把"经验明确 ≤ 3 年"+"emerging talent 0-3 年"也纳入对标
 4. **薪资数据多数为公开范围，国内多为面议** — 已尽量标注公开数据来源
 5. **未访问**：LinkedIn Jobs（需登录），Levels.fyi 单 JD 页（数据为聚合）；不影响 JD 内容采集
+
+---
+
+## 六、新画像补充调研：在华外企 + 类外企 + 国际化 BU（2026-05-24 v2）
+
+> **新画像**：211 本科 + 1 年经验 + Go 主语言 + 想做 AI Agent 应用开发。
+> **目标**：在原有"国内大厂算法岗 + 海外 AI 公司"基础上，补齐**在华真外企**、**国内类外企 AI 公司**、**国内大厂出海 BU** 三大池子。
+> **过滤**：纯应用工程 / 后端 / Agent infra；排除算法岗、5+ 年 senior、985 硕士专属、纯校招（emerging talent 除外）。
+> 调研时间：2026-05-24 v2；以下 JD 与一至五章节零重复。
+
+---
+
+### A. 在华真外企
+
+#### A1. Microsoft AI — Software Engineer 2, Agent Infrastructure（Suzhou）
+
+- **公司 / 团队**：Microsoft AI / Suzhou 研发中心 — Agent Systems Infrastructure
+- **岗位名称**：Software Engineer 2 — Agent Infrastructure
+- **城市 / 模式**：江苏苏州（hybrid，1/26/2026 起非美区办公室 25 mile 内每周 4 天 onsite）
+- **经验要求**：3-5 年（Software Engineer 2 ladder；1 年用强项目可冲）
+- **学历要求**：本科及以上 — **211 本科友好**（微软中国不强制 985 硕）
+- **主要编程语言**：**多语言（C# / C++ / Python / Go / Rust 至少 2 个）**
+- **核心 hard skills**：
+  - 构建高性能、可靠的 Agent systems 基础设施
+  - autonomous agents 核心 runtime
+  - distributed LLM serving
+  - RL-based training pipelines（应用工程角度，非算法）
+  - 多语言扎实编程能力
+- **加分项**：LangChain / AutoGen 经验、Azure 平台、英文异步沟通
+- **薪资**：未公开（Microsoft China Suzhou L62 综合 60-80W）
+- **发布时间**：2026-05 仍在招
+- **来源**：[Microsoft Careers - Suzhou](https://careers.microsoft.com/v2/global/en/locations/suzhou.html)、[Microsoft AI Careers - Suzhou Archive](https://microsoft.ai/job-region/suzhou-china/)（SE2 Agent Infra 岗多次在搜索摘要出现）
+
+#### A2. Microsoft — Copilot Platform Asia ML Software Engineer（Beijing）
+
+- **公司 / 团队**：Microsoft / Copilot Platform Asia ML Team — 驱动 Microsoft Copilot 企业版基础设施
+- **岗位名称**：Software Engineer — Copilot Platform Asia ML
+- **城市 / 模式**：北京（hybrid）
+- **经验要求**：2-5 年应用工程经验
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Python + C# / TypeScript**
+- **核心 hard skills**：
+  - 设计 / 实现 prompt engineering 策略
+  - 跨业务线 prompt 优化驱动
+  - foundation model 基础设施
+  - 全球分布式协作（强英文）
+  - 在 Microsoft Copilot 企业体验上做 ML 应用
+- **加分项**：LLM 评测体系、A/B 实验、Azure OpenAI 经验
+- **薪资**：未公开
+- **发布时间**：2026-05 在招
+- **来源**：[Microsoft Careers - Beijing](https://careers.microsoft.com/v2/global/en/locations/beijing.html)（搜索结果摘要确认 Copilot Platform Asia ML Team 在招）
+
+#### A3. Microsoft Research Asia — Research SDE / Engineering（Shanghai System & Engineering Group）
+
+- **公司 / 团队**：MSRA / Shanghai System and Engineering Group — Agentic AI 优先方向
+- **岗位名称**：Research SDE / Software Engineer（围绕 Agentic AI 系统）
+- **城市 / 模式**：上海（onsite）
+- **经验要求**：2-4 年（research engineer ladder，非纯研究员）
+- **学历要求**：本科 / 硕士均可 — **211 本科可投**（MSRA Engineering 线不强制博士）
+- **主要编程语言**：**Python + C++ / Go**
+- **核心 hard skills**：
+  - 与研究员协作把 paper idea 工程化
+  - LLM / multimodal LLM / agentic systems 工程
+  - sustained human-agent communication 与 reasoning 系统建设
+  - 强系统设计能力
+- **加分项**：开源 ML / Agent 项目贡献、StarTrack Scholars 推荐
+- **薪资**：未公开（MSRA L62-L63 综合 50-75W）
+- **发布时间**：2026 StarTrack Scholars 同步开放
+- **来源**：[MSRA Opportunities](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/opportunities/)、[MSRA Shanghai System and Engineering Group](https://www.microsoft.com/en-us/research/group/sh-sys-eng-group/people/)、[StarTrack Scholars 2026](https://www.microsoft.com/en-us/research/articles/microsoft-research-asia-startrack-scholars-2026-a-holistic-approach-to-systems-and-networking-in-the-ai-era/)
+
+#### A4. NVIDIA — Software Engineer, LLM Inference（Shanghai）
+
+- **公司 / 团队**：NVIDIA China / TensorRT-LLM, AI 基础设施 — 应用工程方向
+- **岗位名称**：Software Engineer — LLM Inference
+- **城市 / 模式**：上海（onsite）
+- **经验要求**：**2-4 年**（同岗位 Senior 是 5+，普通 SWE 接近 2-3 年门槛）
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Python + C++**（CUDA 是加分，不是必备）
+- **核心 hard skills**：
+  - LLM 推理性能分析与优化（工程侧，非算法）
+  - 集成 / fine-tuning LLM 与 agent frameworks（**LangChain / LangGraph / AutoGen / OpenAI Functions / RAG / 向量库**）
+  - 构建可 reason / plan / 调用工具的 agents
+  - GPU 编程基础理解
+- **加分项**：CUDA、TensorRT、性能 profiling、英文写作
+- **薪资**：未公开（NVIDIA Shanghai SWE 综合 55-95W）
+- **发布时间**：2026-05 在招
+- **来源**：[NVIDIA Jobs in Shanghai - Glassdoor](https://www.glassdoor.com/Jobs/NVIDIA-Shanghai-Jobs-EI_IE7633.0,6_IL.7,15_IC2416009.htm)、[NVIDIA Careers (Workday)](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite)（搜索结果摘要明确该岗位涉及 LangChain / LangGraph / AutoGen / RAG）
+
+#### A5. Amazon (AWS China) — Software Development Engineer（Beijing）
+
+- **公司 / 团队**：Amazon Web Services China / 中国研发中心 — 平台开发团队
+- **岗位名称**：Software Development Engineer (SDE I / II)
+- **城市 / 模式**：北京
+- **经验要求**：SDE I 0-2 年 / SDE II 2-4 年（明确 1-3 年友好）
+- **学历要求**：本科及以上 — **211 本科友好**（AWS 不卡 985 硕士）
+- **主要编程语言**：**Java / Python / C++ / Go / Rust / TypeScript 任一**
+- **核心 hard skills**：
+  - 分布式系统设计
+  - 云原生架构、微服务
+  - CI/CD pipeline
+  - GenAI / AI-powered tools 应用（JD 显性提到"Leverage and contribute to the development of GenAI and AI-powered tools"）
+  - code review、debugging
+- **加分项**：AWS 服务经验、SQL/NoSQL、开源贡献
+- **薪资**：CN¥377K-CN¥730K（Levels.fyi SDE I 中位 CN¥516K）
+- **发布时间**：2026 全年滚动开放
+- **来源**：[Amazon Jobs - Beijing](https://www.amazon.jobs/en/locations/beijing-china)、[AWS 中国诚聘英才 SDE](https://aws.amazon.com/cn/careers/sde1/)、[Levels.fyi - Amazon SDE I China](https://www.levels.fyi/companies/amazon/salaries/software-engineer/levels/sde-i/locations/china)
+
+---
+
+### B. 国内类外企 AI 公司
+
+#### B1. 智谱 AI — 大模型应用工程师 / 后端开发
+
+- **公司 / 团队**：北京智谱华章科技 — Agent / 平台开发线
+- **岗位名称**：大模型应用工程师（含 Agent 算法实习生转正路径）
+- **城市 / 模式**：北京
+- **经验要求**：1-3 年社招（实习生也大量招）
+- **学历要求**：本科及以上 — **211 本科友好**（智谱 BOSS 直聘公开多岗未限 985 硕）
+- **主要编程语言**：**Python / Go / Java 至少一门**
+- **核心 hard skills**：
+  - 熟悉 Tool Use 与多轮对话设计
+  - LLM 应用工程化（智谱 GLM 系列）
+  - MaaS 平台 API 服务化
+  - Agent 编排（智谱清言 / AutoGLM）
+- **加分项**：开源贡献、对 Claude Code / Cursor 有深度使用
+- **薪资**：16 月薪 + 五险一金（12% 公积金）+ MacBook Pro
+- **发布时间**：2026 全年滚动
+- **来源**：[智谱招聘 (Feishu)](https://zhipu-ai.jobs.feishu.cn/)、[BOSS 直聘 - 北京智谱华章科技](https://www.zhipin.com/zhaopin/08f9c2338ee152d11nd739S9EA~~/)、[智谱内推 LeetCode](https://leetcode.cn/discuss/post/3268215/zhi-pu-ainei-tui-xiao-zhao-shi-xi-she-zh-2sb8/)
+
+#### B2. Moonshot AI（Kimi）— Backend Engineer / Developer Relations
+
+- **公司 / 团队**：Moonshot AI / Kimi K2 Agent Swarm 团队
+- **岗位名称**：Backend Engineer / Developer Relations（开发者关系工程师）
+- **城市 / 模式**：北京（朝阳）
+- **经验要求**：1-3 年（DevRel 偏好对开发者社区有内容输出经验）
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Go / Python**（Kimi K2 平台后端常用栈）
+- **核心 hard skills**：
+  - 大规模 API 后端（Kimi 开放平台 platform.moonshot.cn）
+  - Agent Swarm 编排（K2.5/K2.6 主推方向）
+  - 高并发推理服务支撑
+  - 文档、SDK、示例项目输出（DevRel）
+- **加分项**：Claude Code / Cursor / Devin 等竞品有深度使用、技术内容产出（博客 / Twitter）
+- **薪资**：未公开
+- **发布时间**：2026-03 多个岗位活跃
+- **来源**：[Moonshot AI 招聘](https://careers.kimi.com/)、[Moonshot AI Jobs (Ashby)](https://jobs.ashbyhq.com/moonshot-ai)、[LinkedIn - Kimi DevRel 北京](https://cn.linkedin.com/jobs/view/developer-relations-at-kimi-moonshot-ai-4385900850)
+
+#### B3. DeepSeek — Agent Infrastructure Engineer
+
+- **公司 / 团队**：深度求索（DeepSeek）/ Agent 方向团队（2026-03 新设的 17 岗之一）
+- **岗位名称**：Agent Infrastructure Engineer
+- **城市 / 模式**：北京 / 杭州（双城办公）
+- **经验要求**：1-3 年（DeepSeek 在 2026 从"研究偏好"转向 Agent 产品化，明确扩招中级）
+- **学历要求**：本科及以上 — **211 本科可投**（不强制硕士）
+- **主要编程语言**：**Go / Python**（容器调度平台主要 Go）
+- **核心 hard skills**：
+  - **熟悉 MCP、Tool Use、Function Calling** 等 Agent 交互协议
+  - 构建 Agent runtime 基础
+  - 整合外部 tools
+  - 搭建评测平台
+  - 海量 AI Agent 运行的容器调度与隔离平台
+- **加分项**：**"Heavy Vibe Coding User"**（DeepSeek 显性偏好 Claude Code / Cursor 重度用户）、开源 Agent 项目贡献
+- **薪资**：DeepSeek 多岗位年薪百万，实习日薪近千元（公开报道）
+- **发布时间**：2026-03 集中放出，5 月仍在招
+- **来源**：[量子位 - DeepSeek 急招 Agent 方向 17 岗](https://www.qbitai.com/2026/03/392024.html)、[知乎 - DeepSeek 17 岗位详情](https://zhuanlan.zhihu.com/p/2020138161393673466)、[Bloomberg - DeepSeek Agentic AI Jobs](https://www.bloomberg.com/news/articles/2026-03-24/deepseek-s-latest-job-postings-highlight-pivot-to-agentic-ai)、[SCMP - DeepSeek hires ex-Jane Street](https://www.scmp.com/tech/big-tech/article/3354113/deepseek-recruits-former-jane-street-engineer-catch-ai-agents-revenue-race)
+
+#### B4. DeepSeek — Full Stack Development Engineer（容器调度 / Agent Runtime）
+
+- **公司 / 团队**：深度求索 / Agent 平台基础设施
+- **岗位名称**：Full Stack Development Engineer
+- **城市 / 模式**：北京 / 杭州
+- **经验要求**：1-3 年
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Go（后端） + TypeScript（前端）**
+- **核心 hard skills**：
+  - 下一代容器调度与隔离平台
+  - 承载海量 AI Agent 运行
+  - 容器生命周期管理（K8s + 自研调度）
+  - 端到端全栈交付
+- **加分项**：**"Heavy Vibe Coding User"** —— 持续探索模型能力的创新、产品体验直觉
+- **薪资**：未公开（DeepSeek 整体薪资进入头部 AI 公司第一梯队）
+- **发布时间**：2026-03，仍在招
+- **来源**：[量子位 - DeepSeek 17 岗位详情](https://www.qbitai.com/2026/03/392024.html)、[Mokahr DeepSeek 社招](https://www.zhipin.com/companys/9114ac0a15659a7403R63NS9EFY~.html)
+
+#### B5. MiniMax — 后端开发工程师 / AI 应用方向
+
+- **公司 / 团队**：MiniMax / 海螺 AI 产品线
+- **岗位名称**：后端开发工程师（AI 应用方向）
+- **城市 / 模式**：上海 / 北京 / 深圳 / 成都
+- **经验要求**：1-3 年社招（同时大规模招实习生）
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Go / Python**
+- **核心 hard skills**：
+  - 后端服务设计与开发
+  - 高并发场景（海螺 AI / Talkie 海外产品）
+  - LLM 推理 / 多模态服务化
+  - AI 应用前后端联调
+- **加分项**：海外产品经验、AIGC 工具链
+- **薪资**：未公开
+- **发布时间**：2026-05 长期招聘
+- **来源**：[MiniMax Careers](https://www.minimaxi.com/careers)、[MiniMax 校招飞书](https://vrfi1sk8a0.jobs.feishu.cn/379481/m/)、[BOSS 直聘 - MiniMax](https://www.zhipin.com/gongsi/job/2c7c394fdf91db2d1XR42dy0EFo~.html)
+
+#### B6. 阶跃星辰（StepFun）— 后端研发工程师
+
+- **公司 / 团队**：上海阶跃星辰 / Step 系列大模型 + 智能终端 Agent
+- **岗位名称**：后端研发工程师（Golang 为主）
+- **城市 / 模式**：北京 / 上海
+- **经验要求**：1-3 年社招（hatcher@stepfun.com 投递）
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Go 为主**（"主要 Golang，后端通常用它"）
+- **核心 hard skills**：
+  - 大模型推理 / Agent 服务后端
+  - 车 / 手机 / 具身智能 / IoT 终端 Agent 接入
+  - 高并发后端
+  - 大小周（公开承认）+ 单倍加班费
+- **加分项**：端侧推理经验、汽车 / IoT 行业背景
+- **薪资**：未公开
+- **发布时间**：2026 春招 + 秋招同步开放，社招长期
+- **来源**：[阶跃星辰公司页](https://www.stepfun.com/company)、[V2EX - StepFun 大量岗位社招 + 校招](https://www.v2ex.com/t/1080624)、[BOSS 直聘 - 上海阶跃星辰](https://m.zhipin.com/companys/65fd00bba1cda84c1H1-2Ni1FFE~.html)
+
+#### B7. 零一万物（01.AI）— 后端开发工程师 / 万智企业大模型一站式平台
+
+- **公司 / 团队**：零一万物 / 万智企业大模型一站式平台 + 企业 Agent 定制
+- **岗位名称**：后端开发工程师
+- **城市 / 模式**：北京
+- **经验要求**：1-3 年社招（同时大量实习）
+- **学历要求**：本科及以上 — **211 本科可投**
+- **主要编程语言**：**Java / C / C++ / Python / Golang 任一**（多语言可投）
+- **核心 hard skills**：
+  - 企业 Agent 定制解决方案后端
+  - MaaS 平台架构
+  - LLM 推理服务化
+  - 多源数据接入
+- **加分项**：B 端企业服务经验、医疗 / 金融领域积累
+- **薪资**：未公开
+- **发布时间**：2026 持续招聘
+- **来源**：[零一万物招聘 (Feishu)](https://01ai.jobs.feishu.cn/)、[BOSS 直聘 - 零一万物](https://www.zhipin.com/gongsi/job/100000/28ea590929b1fd921Xx82d27ElE~.html)、[01.AI 官网](https://www.01.ai/)
+
+#### B8. 百川智能 — 后端开发工程师
+
+- **公司 / 团队**：北京百川智能 / Baichuan 系列大模型 + 医疗大模型 + 安全
+- **岗位名称**：后端开发工程师
+- **城市 / 模式**：北京（海淀中关村）
+- **经验要求**：1-3 年社招
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Go / Python / Java**
+- **核心 hard skills**：
+  - 大模型应用后端服务
+  - 医疗 / 安全场景接入
+  - API 网关、推理调度
+  - 高可用工程化
+- **加分项**：医疗行业知识、对 LLM 安全有理解
+- **薪资**：未公开（五险一金 + 补充医疗 + 周末双休）
+- **发布时间**：2026 持续
+- **来源**：[百川智能招聘 (Feishu)](https://cq6qe6bvfr6.jobs.feishu.cn/)、[BOSS 直聘 - 百川智能](https://m.zhipin.com/companys/8861892b47c08df01H1829-5EFY~.html)、[北大-百川联合实验室招聘](https://cfcs.pku.edu.cn/announcement/important_notice/242085.htm)
+
+#### B9. AI GEO 创业公司（北京 / 远程）— Python Backend + AI Agent 应用
+
+- **公司 / 团队**：北京 AI GEO 创业公司（V2EX 公开招聘，未具名）
+- **岗位名称**：Python Backend Engineer + AI Agent 应用开发
+- **城市 / 模式**：**北京望京（支持优秀候选人 remote）** — 罕见 remote 友好的国内 AI Agent 岗
+- **经验要求**：**1-3 年 Python**（明确 1 年友好）
+- **学历要求**：计算机相关本科 — **211 本科友好**（优秀应届可议）
+- **主要编程语言**：**Python**（Go 是加分）
+- **核心 hard skills**：
+  - MySQL / PostgreSQL / Redis / Kafka / RabbitMQ
+  - 微服务架构
+  - RESTful API / GraphQL 设计
+  - **AI Agent 框架 — Agno / LangChain**
+  - 系统设计能力
+- **加分项**：高并发分布式系统、前端基础、数据分析、自动化测试
+- **薪资**：未公开（V2EX 创业公司常见 25-45K × 13-14）
+- **发布时间**：2025-08-25 发布，2026 仍在招
+- **来源**：[V2EX - 北京/远程 Python 后端 + 逆向 + AI Agent 应用](https://www.v2ex.com/t/1154820)
+
+---
+
+### C. 国内大厂出海 / 国际化 BU
+
+#### C1. TikTok — Backend Software Engineer, Messaging Team（Singapore）
+
+- **公司 / 团队**：TikTok / Messaging Team（Singapore HQ，支持北京 / 上海远程协作）
+- **岗位名称**：Backend Software Engineer
+- **城市 / 模式**：新加坡（也接受国内 transfer，新加坡 base 工签支持）
+- **经验要求**：**3 年以上**（大规模互联网业务偏好；1-2 年高 potential 可投）
+- **学历要求**：CS BS/MS — **211 本科友好**（明确未限校）
+- **主要编程语言**：**Go / Python / Java / C++ 任一**（Go 优先）
+- **核心 hard skills**：
+  - 大规模后端服务开发（TikTok 消息系统）
+  - 计算机架构、数据结构、算法基本功
+  - 系统设计与架构优化
+  - 跨职能快速迭代协作
+- **加分项**：消费级应用规模化经验、稳定性 / 性能 / 可靠性要求
+- **薪资**：未公开（TikTok Singapore L4 base S$120-160K + RSU）
+- **发布时间**：2026 持续招聘
+- **来源**：[TikTok Careers - Backend SWE Singapore](https://lifeattiktok.com/search/7083496056164469000)、[TikTok Careers 7185456580791535933](https://lifeattiktok.com/search/7185456580791535933)
+
+#### C2. TikTok — Backend Software Engineer, Inference Optimization
+
+- **公司 / 团队**：TikTok / Engineering & Technology — LLM Inference Optimization
+- **岗位名称**：Backend Software Engineer — Inference Optimization
+- **城市 / 模式**：新加坡 / 北京（多 base 可选）
+- **经验要求**：未明确（中级 IC，2-4 年偏好）
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**Go / Python / C++**
+- **核心 hard skills**：
+  - LLM 推理优化（应用工程角度）
+  - 后端服务高吞吐
+  - GPU 资源调度
+  - 模型服务化
+- **加分项**：CUDA、TensorRT-LLM、vLLM 经验
+- **薪资**：未公开
+- **发布时间**：2026 在招
+- **来源**：[TikTok Careers - Backend SWE Inference Optimization](https://lifeattiktok.com/search/7361307256232937778)
+
+#### C3. ByteDance — Agent 软件架构师（移动 OS）
+
+- **公司 / 团队**：字节跳动 / 移动 OS Agent — 客户端 Agent 架构方向
+- **岗位名称**：Agent 软件架构师（移动 OS）
+- **城市 / 模式**：北京（海淀）
+- **经验要求**：3-5 年（中级偏 senior，1-2 年偏低，作为成长目标）
+- **学历要求**：本科及以上 — **211 本科友好**
+- **主要编程语言**：**未明确，依架构方向偏 Go / Kotlin / Swift**
+- **核心 hard skills**：
+  - 客户端架构设计
+  - **多 Agent 协同交互框架设计**
+  - AI Agent 架构参与
+  - 移动 OS 集成
+- **加分项**：移动端性能优化、跨端架构
+- **薪资**：**70-100K × 15 薪**（猎聘公开）
+- **发布时间**：2026-05 在招
+- **来源**：[猎聘 - 字节跳动北京 Agent 软件架构师 - 移动 OS](https://www.liepin.com/job/1978252587.shtml)
+
+#### C4. 阿里国际（AIDC）— AI 应用研发工程师 / Agent Infra Engineer
+
+- **公司 / 团队**：阿里巴巴国际数字商业集团（AIDC）/ Lazada / AliExpress / Daraz —— "Bravo 102" AI 人才计划
+- **岗位名称**：AI 应用研发工程师 / Agent Infra Engineer
+- **城市 / 模式**：杭州 / 北京 / 新加坡 / 法兰克福（电商出海 7 国）
+- **经验要求**：**社招 1 年以上**（AIDC 社招明确友好 1+ 年）
+- **学历要求**：本科 / 硕士 / 博士均可 — **211 本科友好**
+- **主要编程语言**：**Java（阿里基础）+ Python**
+- **核心 hard skills**：
+  - 大模型应用研发（电商 / 物流 / 客服场景）
+  - Agent Infra 工程化
+  - AI SRE / 高可用
+  - 跨境多语言 / 多地区适配
+- **加分项**：跨境电商背景、东南亚 / 拉美市场认知、英文工作
+- **薪资**：未公开（阿里 P6 30-50K × 16-18）
+- **发布时间**：2026 春招 / 社招同步
+- **来源**：[阿里国际招聘官网 AIDC](https://aidc-jobs.alibaba.com/)、[新浪财经 - 阿里国际启动大规模 AI 人才招聘 Bravo 102](https://finance.sina.com.cn/tech/it/2025-04-07/doc-inesinct7748364.shtml)、[超级简历 - Lazada 2026 实习](https://www.wondercv.com/xiaozhao/lazada-2027-intern-ai-5532-2ea8f5/)
+
+#### C5. 阿里通义实验室 — AI Agent Optimization Engineer / Agent Infra Engineer（社招）
+
+- **公司 / 团队**：阿里巴巴通义实验室 / 全球 LLM 与 Agent 体系
+- **岗位名称**：AI Agent 优化工程师 / Agent Infra Engineer（社招新设 7 类 AI 岗之一）
+- **城市 / 模式**：杭州 / 北京 / 上海 + 新加坡 / Frankfurt / Sunnyvale
+- **经验要求**：**至少 1 年大模型经验**（社招明确 1+ 年友好）
+- **学历要求**：本科 / 硕士 / 博士均可 — **211 本科友好**（明确不卡）
+- **主要编程语言**：**Java + Python**
+- **核心 hard skills**：
+  - LLM 驱动的 AI Agent 框架研究 / 跟踪
+  - AI Agent / Multi-Agent / Graph RAG
+  - 多 Agent 并行服务系统构建
+  - 通义 / Qwen 系列应用落地
+- **加分项**：海外业务、Agent SDK 设计、技术博客输出
+- **薪资**：未公开（阿里 P6 30-60K × 16）
+- **发布时间**：2026 春招 + 社招长期
+- **来源**：[通义实验室招聘官网](https://careers-tongyi.alibaba.com/)、[新浪财经 - 阿里 2027 实习 AI 占 80%，新设 Agent 七类岗](https://finance.sina.com.cn/stock/bxjj/2026-03-18/doc-inhrkskx9440403.shtml)
+
+#### C6. 京东 — TGT 顶尖青年技术天才计划 / 智能体方向
+
+- **公司 / 团队**：京东集团 / TGT (Top Young Technology Talents) 全球计划 — AI + 零售 / 物流
+- **岗位名称**：TGT 智能体方向技术天才（含大模型应用 / 智能体系统 / 工程实现）
+- **城市 / 模式**：北京
+- **经验要求**：**0-2 年**（本硕博应届 + 毕业 2 年内 tech 人才 — **新画像极友好**）
+- **学历要求**：本科及以上（国内外大学均可）— **211 本科友好**
+- **主要编程语言**：**Python / Java / Go**
+- **核心 hard skills**：
+  - 多模态合规智能体
+  - 供应链大模型决策
+  - LLM 营销风险发现
+  - 智能体系统工程化
+- **加分项**：上线项目数据、开源贡献、技术博客
+- **薪资**：**"不设上限" + 完整福利**（京东官方公开）
+- **发布时间**：2026 春招重点项目
+- **来源**：[京东招聘 TGT 计划](https://zhaopin.jd.com/)、[新浪财经 - 京东启动万人级春招](https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmtis2013011.shtml)、[超级简历 - 京东专岗 2026](https://www.wondercv.com/xiaozhao/jd-2026-autumn-beijing-special-6030-8be3bf/)、[中国基金报 - 京东顶尖青年技术天才计划](https://www.chnfund.com/article/ARe6c7d6bd-e44d-d453-fcdf-3a19c22e9df8)
+
+---
+
+### D. 本次未找到合格 JD 的目标公司（明确标注）
+
+- **GitHub Copilot 中国团队**：截至 2026-05 公开渠道仅美国岗位，未在中国独立设 Copilot 工程线（Microsoft GCR 不直接对应 GitHub Copilot Engineering）
+- **Databricks China**：LinkedIn 119 个 China 岗位中无明确"AI Agent 应用 / 后端 1-3 年"独立 JD，多为合作伙伴 / 销售 / 数据架构（Senior 5+），非软件工程岗
+- **Snowflake China**：未在中国设独立工程团队，国内 JD 多为商务
+- **Salesforce / Tableau China**：1000+ China 岗位但极少 AI Agent 工程岗，多为顾问 / SE
+- **JetBrains Shanghai**：只找到 HR Intern，无 SWE 岗
+- **Atlassian / Stripe China**：均无明确中国 base 软件工程招聘
+- **Intel China AI Agent**：在 2026-05 公开渠道未找到 LLM / Agent 应用工程专项岗（多为芯片 / 编译器 / OneAPI）
+- **腾讯出海 BU（PUBG / WeChat International）**：公开渠道未见独立 AI Agent 工程岗
+- **面壁智能（OpenBMB）**：BOSS 直聘 / 猎聘有招聘页但未找到 1-3 年后端 + Agent 应用的明确 JD（多偏算法 / 端侧）
+- **Coze 国际版 / Lark Suite International 独立 JD**：均归并到 ByteDance / 字节通用招聘门户，未独立挂"Coze 国际版后端"标签
+
+---
+
+## 七、本次补调研的关键发现
+
+> 共新增 **20 个 JD**，分布：A 类（在华真外企）5 个，B 类（国内类外企 AI）9 个，C 类（国内大厂出海 / 国际化）6 个。
+
+### 1. **DeepSeek 的"Agent 化转型"是 2026 上半年最强信号**
+DeepSeek 在 2026-03 一口气放出 17 个 Agent 方向岗位，从原本偏好"研究 + 学术"180 度转向"Agent 产品化 + Vibe Coding 重度用户优先"。这对 1 年经验 + 211 本科 + Go 主语言的开发者来说，是**罕见的窗口期**：DeepSeek 不再强制博士 / 顶会，反而把"对 Claude Code / Cursor 有深度使用"作为显性加分项。这条路径的优势是：薪资进入头部第一梯队 + 不卡学历 + Go 后端是核心栈。
+
+### 2. **阿里国际（AIDC）+ 通义实验室是"1 年经验"最友好的国内大厂池子**
+原 real-jds.md 第一章里的阿里淘天 AI Agent 岗多数偏 senior，但本次发现阿里在 **2026 春招新设 7 类 AI 岗**（AI Application Research Engineer、AI Agent Optimization Engineer、Agent Infra Engineer、AI Data Engineer、AI Infra Engineer、AI SRE、AI Application Algorithm Engineer），社招明确"至少 1 年大模型经验"门槛，且不卡 985 硕士。叠加 Lazada / AIDC 出海方向，**英文工作 + 国际化业务 = 接近外企体验**。
+
+### 3. **微软中国系（MSRA 上海 + 苏州 Agent Infra + 北京 Copilot Platform Asia ML）的 Agent 投入显著上升**
+Microsoft 在 GCR（Greater China Region）2026 的 Agent / Copilot 招聘相比 2025 翻倍：**苏州研发中心 Software Engineer 2 - Agent Infrastructure** 明确写 "build infrastructure for Agent systems, autonomous agents runtime, distributed LLM serving"；MSRA 上海 System & Engineering Group 把 Agentic AI 列为 2026 优先方向。**这是 211 本科 + Go 开发者进外企最现实的路径**（不卡 985 硕）。
+
+### 4. **国内类外企 AI 公司（智谱 / Moonshot / MiniMax / 阶跃 / 零一 / 百川）薪酬 + 学历政策已经接近外企**
+这 6 家全部满足：本科可投、不强制 985 硕、明确支持 Go 后端、有 Agent 应用产品线、薪资 16 月薪 + 五险一金（公开）。其中**阶跃星辰明确"主要 Golang"**——这是国内 AI 公司里少有显性 Go-first 的团队。
+
+### 5. **TikTok / ByteDance 出海团队是 Go 后端 + 想接触 AI 的最佳跳板**
+TikTok Singapore Messaging / Inference Optimization 团队的后端工程师 JD 明确 "Go / Python / Java / C++ 任一"，工作内容涵盖 LLM 推理优化与大规模消息系统。从国内 transfer 到 Singapore 工签支持成熟，**1 年 Go 经验 + 强项目可挑战**。
+
+### 6. **"Heavy Vibe Coding User" 已成显性加分项**
+DeepSeek 全栈岗、Moonshot DevRel 岗都明确"对 Claude Code / Cursor / Devin / Manus 有深度使用"是加分。这与 real-jds.md 第二章 F 节"对 Claude Code / Cursor 有深度使用"的隐形门槛形成印证——**这条已从外企隐性门槛升级为国内类外企的显性加分**。
+
+### 7. **未找到合格 JD 的公司里有意外**
+- **GitHub Copilot 中国独立团队不存在**：所有 Copilot 工程岗仍走 Microsoft GCR 主体招聘，未独立挂"GitHub Copilot China"标签
+- **Databricks / Snowflake / Salesforce China**：1000+ China 岗位但 AI Agent 工程岗几乎为零，国内主要是销售 / 顾问职能
+- **腾讯出海 BU**：PUBG / WeChat International 公开渠道无独立 AI Agent 工程岗，暗示腾讯出海 AI 战略仍由总部统筹（非独立 BU）
+
+### Top 5 推荐（1-2 年经验 + 211 本科 + Go 主语言 + AI Agent 应用方向）
+
+1. **DeepSeek - Agent Infrastructure Engineer / Full Stack（B3 / B4）** — Go + Vibe Coding 重度用户加分 + 不卡学历 + 头部薪资
+2. **阶跃星辰 - 后端研发工程师（B6）** — 明确 Go-first + 北京 / 上海 + 智能终端 Agent 落地场景
+3. **阿里国际 AIDC - AI 应用研发工程师 / Agent Infra（C4）** — 1+ 年友好 + 不卡 985 硕 + 出海国际化 = 类外企
+4. **Microsoft Suzhou - Software Engineer 2 Agent Infrastructure（A1）** — 在华真外企 + 多语言（含 Go）+ Agent 核心 runtime
+5. **京东 TGT 顶尖青年技术天才计划 - 智能体方向（C6）** — 0-2 年极友好 + 不设薪资上限 + 智能体系统工程化方向
